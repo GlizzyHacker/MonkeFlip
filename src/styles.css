@@ -1,0 +1,30 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#b {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  font-family: inherit;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: red;
+  border-radius: 12%;
+  padding: 10px;
+}
+#b :hover {
+  transition-duration: 0.4s;
+  background-color: red;
+  opacity: 100%;
+}
+body {
+  background-image: url("src/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 230%;
+}
